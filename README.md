@@ -17,6 +17,7 @@ In this project, we assisted a Colorado Board of Electionsemployee, Tom, perform
 - Software: Python 3.6.1, Visual Studio Code 1.71.2
 
 ## Election Audit Results
+### Total Votes and Candidates
 We used the code below to Analyze the total number of votes, get a list of candidates who received votes, and their total votes. We used a for loop to to determine the total votes in the election, every row was counted as one vote. For a list of candidates, we used the for loop with an if statement to determine the candidates that received votes. Every time a candidate is listed, a vote for that candidate is added. 
 
 ![Code_1](https://user-images.githubusercontent.com/112137694/193700518-2df982b5-4a5f-4741-86f3-6ea7b7bacf50.png)
@@ -28,6 +29,7 @@ The results of the script are as follows:
   - Diana DeGette who received 272,892 votes
   - Raymond Anthony Doane who received 11,892
 
+### Candidate Results
 We used the code below to calculate each candidate's results. A for loop is used to loop through each candidate and their votes. We calculate the percentage of each candidate's and use an if statement to determine the winner. 
 
 ![Code_2](https://user-images.githubusercontent.com/112137694/193700742-4f84fc20-ee6b-45da-a2a4-03aabb080a80.png)
@@ -40,6 +42,7 @@ The candidate results were as follows:
 The winner of the election was:
   - Diana DeGette, who received 73.8& of the vote and 272,892 number of votes
 
+### County Results
 We used the script below to calculate the voter tunrout for each county. Similar to calculating the candidate results, we used a foor loop to loop through each county and their votes to calculate the percentage of each county's votes compared to the total votes cast. Then we use an if statement to determine the county with the highest voter turnout. 
 
 ![Code_3](https://user-images.githubusercontent.com/112137694/193700916-31b73ada-0958-46e9-8050-88fc12639908.png)
